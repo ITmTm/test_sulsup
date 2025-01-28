@@ -94,14 +94,16 @@ const ForwardedParamEditor = React.forwardRef<ParamEditor, Props>((props, ref) =
 
 		// моковые данные
 const params: Param[] = [
-	{id: 1, name: 'Назначение', type: 'string'},
-	{id: 2, name: 'Длина', type: 'string'},
+	{ id: 1, name: 'Назначение', type: 'string' },
+	{ id: 2, name: 'Длина', type: 'string' },
+	// { id: 3, name: 'Материал', type: 'string' },	//  Новый параметр
 ];
 
 const model: Model = {
 	paramValues: [
-		{paramId: 1, value: 'повседневное'},
-		{paramId: 2, value: 'макси'},
+		{ paramId: 1, value: 'повседневное' },
+		{ paramId: 2, value: 'макси' },
+		// { paramId: 3, value: 'хлопок' },	//  Новый параметр
 	],
 };
 
