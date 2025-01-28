@@ -6,22 +6,59 @@
   background: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
-
-  &-header {
-    font-size: 3rem;
-    font-weight: 200;
-    color: rgba(175, 47, 47, 0.3);
-    margin-bottom: 1rem;
-  }
-
-  .todo-header {
-    display: flex;
-    align-items: center;
-  }
 }
 
-.completed {
-  text-decoration: line-through;
-  opacity: 0.6;
-  color: rgba(0, 0, 0, 0.4);
+.app h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.editor__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor__label {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  width: 30%;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #cbb7b5;
+  width: 100%;
+  max-width: 350px;
+}
+
+.editor__button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.editor__button:hover {
+  background-color: #0056b3;
 }
