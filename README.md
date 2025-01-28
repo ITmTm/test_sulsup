@@ -1,6 +1,6 @@
 # 📋 Test - Selsup SPA
 
-![Test-selsup](https://github.com/user-attachments/assets/6830980c-656c-4ef2-aac4-c51199652547)
+![Test-selsup](https://github.com/user-attachments/assets/7cd308a5-bcb7-4959-bc9e-6f10a3d654d0)
 
 
 > Есть следующие структуры данных, описывающих товар – интерфейс Model и набор
